@@ -1,0 +1,34 @@
+Package: autoMLR
+Type: Package
+Title: Interactive AutoML Data Cleaning Dashboard
+Version: 0.1.0
+Authors@R: c(
+    person("Ulugbek", "Tojiboev", email = "u.tojiboev@student.uw.edu.pl", role = c("aut", "cre")),
+    person("Musab", "Alsaifi", email = "m.alsaifi@student.uw.edu.pl", role = "aut"),
+    person("Katarzyna", "Janeczko", email = "k.janeczko4@student.uw.edu.pl", role = "aut")
+  )
+Description: Provides a Shiny dashboard and reusable transformation pipeline
+    for interactive data cleaning. The package demonstrates defensive
+    programming, an R6 pipeline class, Rcpp helpers, vectorised data
+    transformations, and package-level roxygen2 documentation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.1)
+Imports:
+    bslib,
+    ggplot2,
+    htmltools,
+    R6,
+    Rcpp,
+    shiny,
+    shinyjs,
+    stats,
+    tools,
+    utils
+LinkingTo:
+    Rcpp
+Suggests:
+    roxygen2
