@@ -3,8 +3,8 @@ Type: Package
 Title: Interactive AutoML Data Cleaning Dashboard
 Version: 0.1.0
 Authors@R: c(
-    person("Musab", "Alsaifi", email = "m.alsaifi@student.uw.edu.pl", role = c("aut", "cre")),
-    person("Ulugbek", "Tojiboev", email = "u.tojiboev@student.uw.edu.pl", role = "aut"),
+    person("Ulugbek", "Tojiboev", email = "u.tojiboev@student.uw.edu.pl", role = c("aut", "cre")),
+    person("Musab", "Alsaifi", email = "m.alsaifi@student.uw.edu.pl", role = "aut"),
     person("Katarzyna", "Janeczko", email = "k.janeczko4@student.uw.edu.pl", role = "aut")
   )
 Description: Provides a Shiny dashboard and reusable transformation pipeline
