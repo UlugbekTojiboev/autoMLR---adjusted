@@ -27,10 +27,33 @@ run_app()
 
 ## Regenerate documentation
 
+`roxygen2` is only for documentation. You write comments above a function with
+`#'`, then `roxygen2` converts those comments into official package help files
+inside `man/` and updates `NAMESPACE`.
+
+Example roxygen2 chunk:
+
+```r
+#' Apply transformation steps to a data frame
+#'
+#' @param origin_df Original data frame.
+#' @param steps List of cleaning steps.
+#' @return A cleaned data frame.
+#' @export
+replay_steps <- function(origin_df, steps = list()) {
+  ...
+}
+```
+
+Run this only when you want to rebuild documentation:
+
 ```r
 install.packages("roxygen2")
 roxygen2::roxygenise()
 ```
+
+The Rcpp code is still kept separately in `src/` and is linked through the
+package structure.
 
 ## Check the package
 

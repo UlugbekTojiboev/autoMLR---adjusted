@@ -28,3 +28,5 @@ Imports:
     utils
 LinkingTo:
     Rcpp
+Suggests:
+    roxygen2
